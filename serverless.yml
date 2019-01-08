@@ -5,7 +5,7 @@ provider:
   runtime: nodejs
   project: pokerdisclosure-2018
   # the path to the credentials file needs to be absolute
-  credentials: /PokerDisclosure-fdc6a42b4db5.json
+  credentials: ${env:GOOGLE_APPLICATION_CREDENTIALS}
 
 plugins:
   - serverless-google-cloudfunctions
