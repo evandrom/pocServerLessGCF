@@ -15,4 +15,7 @@ before_deploy:
 deploy:
   - provider: script
     script:
-    - sls deploy
+      - sls deploy
+    skip_cleanup: true
+    on:
+      branch: master
