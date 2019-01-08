@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
     - node_modules
+env:
+  - GOOGLE_APPLICATION_CREDENTIALS=PokerDisclosure-fdc6a42b4db5.json
 install:
   - npm install -g serverless
   - npm install
