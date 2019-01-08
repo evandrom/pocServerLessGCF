@@ -35,3 +35,6 @@ node_modules
 # OS
 .DS_Store
 .tmp
+
+#Google Key
+PokerDisclosure-fdc6a42b4db5.json
