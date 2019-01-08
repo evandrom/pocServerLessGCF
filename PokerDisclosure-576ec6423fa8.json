@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pokerdisclosure-2018",
+  "private_key_id": "576ec6423fa81de6621ed7623a4295eb253f4669",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDG067QfelXBXsR\nC56LuYAENZdo6r1Nttc0E3PGSAtFCFcIcxKGTpp+1E2g61NKgvgv/6dnDOj2JRsc\nG3kA1Kt6ce0JDXPIAF8ylpEhVXLgp0pwzd9gwzDkqRY7kHDLEFdvRkh/OWAIWVEq\ngo7+mKju/e6getXWRmfP173EJlbOnYrLCasGOH8aaMguxyADuIoe4Vdt/IaD3Foh\njencJ6NbM4zXCvi/xygGw5ljy2qFxemAHp86WGdM+uR8YJ61dv+EDsgjNVou41KT\n/Vc3lSphtS9kASUBpiVNyffwGeX/VEpRFLnR0PVo9DjFRiZBCJ8cmxR1JlgKdb+H\nh9BbsucZAgMBAAECggEAAgp+vyenu0u0W3Sv1DXbhU+KhhpwxokztNZlSBoJuZPw\nFsddn5DTf61MvbPktz1YcF+yt3lXs90mJdf3WkWUnA1q1j6z20/7qjCG/V1b8Efv\nWPCYFC10xUgiEQr2yXLZvuvtBxdO788A6QuNjboB8/AZ4L5aDxjKbIUFruuI1Rae\nx/0/Air6Y0M8R4FV7wl1U04xMxCd70AbTwZ4hZLErLfNpRss0S2iZVQcg8i+rj8F\nal1B7SnSCz7p/ka+wn/g5NutQ+8T2S+2i/T3fJfGlTUkDt5o69VdRoWENUKwCW43\ncldQMqHwSq4YI58XoDwsLepYwwOf9Oe460/qel49IQKBgQDvdyA03n6ATxbt+LQW\n3X2MnUaRk3NcU39Y9a0mtbRoI8cNCiIkNyGvVELtBZiXqle3Q7pclD4XEPH8OXDB\nDSf0fkPzjjmpMNXtUg+xZOQXQf1Q4Y9r7Gt5FKej5XTU7agbNeyn4URwb3AMcKlS\nDvDYU1ejfUYb6Rmp49prDf1WcQKBgQDUjjepLbmX9cv8Xfxq5fZbfcroYkOHR0Y+\n3J8y0Xtp1hy8VrqgE6cPftffrw6Xf40l0TUPNmtJdHbJ7+QmoCuBFiDIXOpFG4UT\n8z/En4GJeXAJ4tM3zRsMKNnAGefUzjkGpy/bKg1DAMop9xrhMwaXF3OzbFxMSpQv\nHyBMvx5/KQKBgFbMXD0tpLbHdC0/568eC6MLYwfjZX5Cubc6HdAZLtJMnZrpYGS2\nIxyVM0kMrTnUQcUo5IUoKrVbrArbmzYumZvypJjEpbvg+rnx88Q+KLsRbUuC5uSc\npnwV84nh4w5HMpbiXeygJ5mFmxy3PXiD9+LBmtOk1ePKA0ZkU8hYIsrRAoGAT6Rq\nHq3PWKz0nb7pkXRQ9r8PhDstaka+f1dTH0t2npVndvpYOxqiAiBY6qtBIGrejEjz\nRJvzXzaQO+Hy7rYdFuUfq3OFJBfHqU3/msDZXJVv8YRX+BSWCdxUmrIaN5Z9r4x9\nVfVPusdU+JxqKe9gjMRwyc3UV5GqLG3RQHBsEOECgYEAks+xjL6JYh53sbYjf0zc\nXhima3XBaE/rbSSEwFiuAuvDcETS5malJyY4BbyMpYJi95EcwVtRJbmdP4rgSwaQ\n4c96Eb0NBejwvqqSAD65lg6Lcs03XEtKf/XCGAByhAKtl1nA8cIYdiCSSQLvVAkb\ntCT52Hh4FJgeke7NCO2jN1s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pokerdisclosure-2018@appspot.gserviceaccount.com",
+  "client_id": "115860968828857633825",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pokerdisclosure-2018%40appspot.gserviceaccount.com"
+}
