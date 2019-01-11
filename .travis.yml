@@ -20,4 +20,4 @@ deploy:
     skip_cleanup: true
     on:
       branch: master
-after_success: npm run coverage
+after_success: npm run coveralls
