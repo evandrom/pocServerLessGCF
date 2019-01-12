@@ -12,8 +12,6 @@
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
     "jest": "^23.6.0",
     "serverless-google-cloudfunctions": "*",
     "supertest": "^3.3.0"
