@@ -1,4 +1,4 @@
-const { hello } = require('../routes/greetings');
+const { hello } = require('../service/greetings');
 
 let req = {
     body: {},

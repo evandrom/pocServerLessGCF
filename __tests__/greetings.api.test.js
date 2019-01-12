@@ -1,5 +1,6 @@
 const request = require('supertest');
-const app = require('../index')
+const { http } = require('../index')
+
 
 describe('Unit testing the /home route', () => {
     let data = {
@@ -8,7 +9,7 @@ describe('Unit testing the /home route', () => {
     }
 
     test('POST respond with 200 with Hello', () => {
-        return request(app.http)
+        return request(http.app)
             .post('/greeting/')
             .send(data)
             .set('Accept', 'application/json')
@@ -19,14 +20,14 @@ describe('Unit testing the /home route', () => {
     });
 
     test('should return 200 status', async () => {
-      return request(app.http)
+      return request(http.app)
         .get('/hello/evandro')
         .then(function(response){
             expect(response.status).toEqual(200)
         })
     });
     test('POST hould return OK status', async () => {
-        return request(app.http)
+        return request(http.app)
           .post('/hello/evandro')
           .then(function(response){
             expect(response.status).toEqual(200)
@@ -35,7 +36,7 @@ describe('Unit testing the /home route', () => {
       });
 
     test('should return NOT FOUND status', async () => {
-        return request(app.http)
+        return request(http.app)
           .get('/fool')
           .then(function(response){
             expect(response.status).toEqual(404)
