@@ -26,7 +26,7 @@ describe('Unit testing the /home route', () => {
         })
     });
 
-    test.skip('POST hould return OK status', async () => {
+    test('POST hould return OK status', async () => {
         return request(app.http)
           .post('/hello/evandro')
           .then(function(response){
