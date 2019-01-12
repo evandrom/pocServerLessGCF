@@ -31,10 +31,9 @@ describe('Unit testing the /home route', () => {
           .post('/hello/evandro')
           .then(function(response){
             expect(response.status).toEqual(200)
-              expect(response.body).toBeDefined()
+            expect(response.body).toMatch(expect.any(String))
           })
       });
-
 
     test('should return NOT FOUND status', async () => {
         return request(app.http)
