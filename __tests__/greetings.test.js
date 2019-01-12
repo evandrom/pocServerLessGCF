@@ -1,50 +1,48 @@
-const expect = require('chai').expect;
-
 const { hello } = require('../routes/greetings');
 
 let req = {
     body: {},
 };
 
-describe('Greetings Route', function() {
-    describe('Hello() function', function() {
-        it('Should error out if no name provided ', function() {
+describe('Greetings Route', () => {
+    describe('Hello() function', () => {
+        test('Should error out if no name provided ', () => {
             const result = hello(req);
-            expect(result).to.contain('error');
+            expect(result).toContain('error');
         });
 
-        it('Should respond in English as default', function() {
+        test('Should respond in English as default', () => {
             let newReq = req;
             newReq.body.name = 'Jody';
             
             const result = hello(req);
-            expect(result).to.equal('Hello, Jody');
+            expect(result).toEqual('Hello, Jody');
         });
 
-        it('Should error on invalid language', function() {
+        test('Should error on invalid language', () => {
             let newReq = req;
             newReq.body.name = 'Jody';
             newReq.body.language = 'bad-input';
             
             const result = hello(req);
-            expect(result).to.equal('Error: Invalid Language');
+            expect(result).toEqual('Error: Invalid Language');
         });
 
-        it('Should return greeting for english, spanish, or german', function() {
+        test('Should return greeting for english, spanish, or german', () => {
             let newReq = req;
             newReq.body.name = 'Jody';
 
             newReq.body.language = 'en';
             var result = hello(newReq);
-            expect(result).to.equal('Hello, Jody');
+            expect(result).toEqual('Hello, Jody');
 
             newReq.body.language = 'es';
             result = hello(newReq);
-            expect(result).to.equal('Hola, Jody');
+            expect(result).toEqual('Hola, Jody');
 
             newReq.body.language = 'de';
             result = hello(newReq);
-            expect(result).to.equal('Hallo, Jody');
+            expect(result).toEqual('Hallo, Jody');
         });
     })
 });
