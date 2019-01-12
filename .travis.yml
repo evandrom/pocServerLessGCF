@@ -11,6 +11,7 @@ install:
   - npm install
 script:
   - npm test
+  - npm run coverage
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_e2a463f83bee_key -iv $encrypted_e2a463f83bee_iv -in PokerDisclosure-fdc6a42b4db5.json.enc -out PokerDisclosure-fdc6a42b4db5.json -d
 deploy:
