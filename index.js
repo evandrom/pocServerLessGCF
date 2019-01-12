@@ -1,3 +1,3 @@
 'use strict';
-
-exports.http = require('./router/app')
+const app = require('./router/app')
+exports.http = app;

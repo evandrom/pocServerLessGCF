@@ -10,7 +10,7 @@ describe('Unit testing the /home route', () => {
 
     test('POST respond with 200 with Hello', () => {
         return request(http.app)
-            .post('/greeting/')
+            .post('/greeting')
             .send(data)
             .set('Accept', 'application/json')
             .then(function(response){
