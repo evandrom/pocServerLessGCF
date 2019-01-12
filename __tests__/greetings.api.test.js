@@ -25,13 +25,12 @@ describe('Unit testing the /home route', () => {
             expect(response.status).toEqual(200)
         })
     });
-
     test('POST hould return OK status', async () => {
         return request(app.http)
           .post('/hello/evandro')
           .then(function(response){
             expect(response.status).toEqual(200)
-            expect(response.body).toMatch(expect.any(String))
+            expect(response.body.data).toBeDefined()
           })
       });
 
